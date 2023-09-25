@@ -1,0 +1,83 @@
+.home_1_container{
+    display: flex;
+    align-items: center;
+}
+
+.other_container{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.other_container > div{
+    background-color: white;
+    height: 190px;
+    width: 200px;
+    margin: 1rem;
+    border-radius: 9px;
+}
+
+.other_container > div > img{
+    height: 190px;
+    width: 200px;
+    border-radius: 9px;
+}
+
+.other_container>div:first-child{
+    background-color: $secondary_yellow_button;
+}
+
+
+.carrot_categories{
+    width: 1030px;
+    min-height: 400px;
+    background-color:whitesmoke;
+    margin-left: 1rem;
+    border-radius: 9px;
+    color: $footer-ash;
+    margin-top: 1rem;
+    
+}
+.typewriter_container{
+    width: 1030px;
+    height: 400px;
+    background-color:$white;
+    margin-left: 1rem;
+    border-radius: 9px;
+    margin-top: 1rem;
+    color: $footer-ash;
+    padding: 25px;
+    display: flex;
+    
+}
+
+.typewriter_container > img {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 9px;
+}
+
+.typewriter{
+    margin-left: 25%;
+    margin-top: 1%;
+    border: 2px solid $secondary_yellow_button;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+
+.carrot_container > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 9px;
+    margin-top: 9px;
+
+}
+
+.carrot_elements{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+    margin: 10px;
+    margin-top: 1rem;
+
+}

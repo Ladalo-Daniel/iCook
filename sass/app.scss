@@ -1,0 +1,33 @@
+$primary_yellow: #fe9900;
+$secondary_yellow_button: #f68b1e;
+$primary_blue: #6ac1d5;
+$secondary_blue: #14647e;
+$tartiary_background_blue: #16466c;
+$primary_text: #bababb;
+$text_dark: #313133;
+$text_ash: #f1f1f2;
+$white: #ffffff;
+$red: #ff3800;
+$footer-ash: #535357;
+$footer-dark: #313133;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
+$font-segoe-ui: 'Segoe UI', sans-serif;
+$font-arial: Arial, sans-serif;
+$font-roboto: Roboto, sans-serif;
+$font-poppins: Poppins, sans-serif;
+
+
+@import 'contactHeader';
+@import 'header';
+@import 'sideNav';
+@import 'search';
+@import 'login';
+@import 'slider';
+@import 'layout';
+@import 'recipes';
+@import 'home';
+@import 'footer';
+@import 'base';

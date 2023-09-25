@@ -1,0 +1,37 @@
+.header_container > ol{
+    color:gray;
+    z-index: 100;
+    background-color: white;
+    border-radius: 1px;
+    padding: 10px;
+    position: absolute;
+    top: 90%;
+    right: 20%;
+    left: 25%;
+    bottom: 20%;
+    max-width: 400px;
+    height: 500px;
+    overflow-y: scroll;
+    list-style-type: none;
+    border: 1px solid $tartiary_background_blue;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.3);
+  }
+
+   
+  .search_result{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: progress;
+  }
+
+  .search_result:hover{
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+  .search_result >img{
+     height: 50px;
+     width: 50px;
+     margin-right: 5px;
+     border-radius: 50%;
+  }

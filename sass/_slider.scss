@@ -1,0 +1,26 @@
+.container-slide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+    background-color:$secondary_yellow_button;
+    color: white;
+    height: 400px;
+    width: 800px;
+    margin-left: 1rem;
+    border-radius: 9px;
+
+  }
+  
+    
+    .slide-image {
+      margin-top: 4rem;
+      width: 800px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 9px;
+    }
+
+
+    

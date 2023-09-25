@@ -1,0 +1,146 @@
+
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $white;
+    color: $text_dark;
+    height: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    
+}
+
+
+
+.logo{
+ height: 3.7rem;
+ width: 4rem;
+ margin-left: 25px;
+}
+
+.account_info_container{
+    margin-right: 25px;
+}
+
+.account_info_container > a{
+    color: $text_dark;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.header_search_input_container{
+    position: relative;
+    
+}
+
+.header_search_input_container > input{
+    padding: 0.5rem;
+    width: 30rem;
+    border-radius: 5px;
+    font-family: $font-arial;
+    border: 1px solid $footer-ash;
+}
+
+.header_search_input_container > input:focus{
+    outline: 1px solid $footer-ash;
+}
+
+.search_container{
+    position: absolute;
+    transform: translateX(-300%);
+    margin-top: 5px;
+    color: $primary_text;
+}
+
+.search_button{
+    padding: 0.4rem;
+    background-color: $secondary_yellow_button;
+    color: $white;
+    margin-left: 7px;
+    border: none;
+    border-radius: 5px;
+    font-family: $font-segoe-ui;
+    font-weight: 500;
+}
+
+.search_button:hover{
+    background-color: $primary_yellow;
+}
+
+
+.cart_link{
+    position: relative;
+}
+
+
+.added_notification{
+    position: absolute;
+    background-color: $secondary_yellow_button;
+    color: $white;
+    height: 12px;
+    width: 12px;
+    font-size: 7px;
+    font-weight: 800;
+    border-radius: 50%;
+    transform: translateX(-160%);
+    margin-top: 8px;
+    text-align: center;
+}
+
+.icon{
+   margin: 12px;
+   color: $text_dark;
+}
+
+.caret{
+    margin-left: 7px;
+}
+
+.help_user{
+   margin-left: 10px;
+   background-color: transparent;
+   border: none;
+}
+
+.help_user > i {
+    font-size: 20px;
+    color: $text_dark;
+}
+  
+.help_user:hover{
+    color: $secondary_yellow_button;
+}
+.help_user:focus-within{
+    background-color: $text_ash;
+    border-radius: 5px;
+    color: $secondary_yellow_button;
+    padding-right: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 995px) {
+    .header_search_input_container > input{
+        padding: 0.5rem;
+        width: 15rem;
+        border-radius: 5px;
+        font-family: $font-arial;
+        border: 1px solid $footer-ash;
+    }
+  }
+@media only screen and (max-width: 740px) {
+    .header_search_input_container > input{
+        padding: 0.5rem;
+        width: 8rem;
+        border-radius: 5px;
+        font-family: $font-arial;
+        border: 1px solid $footer-ash;
+    }
+
+  }

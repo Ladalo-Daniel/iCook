@@ -1,0 +1,62 @@
+.contact_header_container {
+    display: flex;
+    background-color: $secondary_yellow_button;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    height: 2.5rem;
+    margin: auto 25px;
+}
+
+.contact_header_container > a {
+    color:$white;
+    text-decoration: none;
+    background-color: $secondary_yellow_button;
+}
+
+.logo-up{
+    height: 1.5rem;
+    width: 3rem;
+    margin-left: 25px;
+   }
+
+   .off{
+    margin-left: 25px;
+    color: $white;
+   }
+     
+
+   .free_delivery{
+    background-color: $tartiary_background_blue;
+    color: $white;
+    padding: 8px;
+   }
+
+   .bacci_cook{
+    background-color: $tartiary_background_blue;
+    color: $white;
+    padding: 8px;
+    padding-bottom: 9px;
+    font-family: cursive;
+   }
+
+   .live_now{
+    background-color: $tartiary_background_blue;
+    color: $white;
+    padding: 8px;
+   }
+   .live_now > a {
+    color: $white;
+    background-color: $tartiary_background_blue;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+   }
+
+   .call_to_order{
+    color: $white;
+    margin-right: 25px;
+    font-size: 15px;
+    font-family: $font-arial;
+    text-align: center;
+   }

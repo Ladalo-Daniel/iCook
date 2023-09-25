@@ -1,0 +1,98 @@
+ 
+  .pizza_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+  }
+
+  .pizza_item_container{
+    margin-left: 25px;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  .host-vans{
+    display: flex;
+    align-items: center;
+    color: chocolate;
+    margin: 25px;
+    padding: px;
+    background-color: white;
+    border-left: 4px solid chocolate;
+    animation: fadeIn 1s ease-in 0s forwards;
+
+    
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0.8;
+      color: green;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(1%);
+    }
+  }
+
+  .host-vans:hover{
+    opacity: 0.8;
+    transform: translateY(-2px);
+    transform: t;
+    border-left: 4px solid blueviolet;
+    color: blueviolet;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.3);
+  }
+
+  .host-vans > img{
+      height: 120px;
+      width: 120px;
+      border-radius: 12px;
+      margin-left: 10px;
+  }
+
+  .text{
+    padding: 2px;
+    margin-left: 10px;
+  }
+
+  .host-vans:hover, .host-vans > div{
+    animation: slideLeft 0.7s ease-in-out;
+     
+  }
+
+  .recipe_elements{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    background-color:$tartiary_background_blue;
+    box-shadow: 0px 0px 1px white;
+    margin: 10px  20px auto 20px;
+    max-width: 100%;
+  }
+  
+
+
+
+  .pagination_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pagination > button{
+    width: 30px;
+  }
+
+  .active{
+    background-color: chocolate;
+    color:white;
+  }

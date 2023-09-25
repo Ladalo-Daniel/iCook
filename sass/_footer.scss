@@ -1,0 +1,65 @@
+footer{
+  background-color: $footer-dark;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.mini_footer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: $footer-dark;
+  padding: 30px;
+  font-size: 10px;
+  max-width: 100%;
+  padding-bottom: 100px;
+}
+
+.mini_footer >img{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.google_app_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.google_app_container > h3{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.google_app >img{
+  width: 200px;
+  height: 50px;
+  align-self: center;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+
+
+form > input {
+  padding: 7px;
+  position: relative;
+}
+
+form > input::placeholder{
+  padding-left: 9px;
+}
+
+.envelope_icon{
+  position: absolute;
+  transform: translateX(-175px);
+  margin-top: 10px;
+  color: $text_dark;
+  font-size: 10px;
+}
+
+.news_letter > h1,h2 {
+  font-weight: 200;
+}
